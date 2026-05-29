@@ -1,0 +1,35 @@
+# NAME: torrent-exe
+# AUTHOR: AnikBeris
+# REPO: https://github.com/AnikBeris/Clash
+# PROCESS-NAME: 24
+# TOTAL: 24
+
+payload:
+  # === Торренты ===
+  - PROCESS-NAME,utorrent.exe
+  - PROCESS-NAME,bittorrent.exe
+  - PROCESS-NAME,bitcomet.exe
+  - PROCESS-NAME,qbittorrent.exe
+  - PROCESS-NAME,qbittorrent-nox.exe
+  - PROCESS-NAME,transmission-qt.exe
+  - PROCESS-NAME,transmission-gtk.exe
+  - PROCESS-NAME,transmission-cli.exe
+  - PROCESS-NAME,transmission-daemon.exe
+  - PROCESS-NAME,deluge.exe
+  - PROCESS-NAME,deluge-gtk.exe
+  - PROCESS-NAME,deluged.exe
+  - PROCESS-NAME,deluge-web.exe
+  - PROCESS-NAME,deluge-console.exe
+  - PROCESS-NAME,aria2c.exe
+  - PROCESS-NAME,tixati.exe
+  - PROCESS-NAME,vuze.exe
+  - PROCESS-NAME,azureus.exe
+  - PROCESS-NAME,rtorrent
+  - PROCESS-NAME,fdm.exe
+  - PROCESS-NAME,bitspirit.exe
+  - PROCESS-NAME,bitlord.exe
+  - PROCESS-NAME,frostwire.exe
+  - PROCESS-NAME,biglybt.exe
+  - PROCESS-NAME,tribler.exe
+  - PROCESS-NAME,picotorrent.exe
+  - PROCESS-NAME,webtorrent.exe

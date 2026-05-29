@@ -1,0 +1,32 @@
+# NAME: EpicGames
+# AUTHOR: AnikBeris
+# REPO: https://github.com/AnikBeris/Clash
+# DOMAIN-SUFFIX: 22
+# PROCESS-NAME: 1
+# TOTAL: 23
+
+payload:
+  - PROCESS-NAME,EpicGamesLauncher.exe
+
+  - DOMAIN-SUFFIX,fab.com
+  - DOMAIN-SUFFIX,battlebreakers.com
+  - DOMAIN-SUFFIX,eac-cdn.com
+  - DOMAIN-SUFFIX,easy.ac
+  - DOMAIN-SUFFIX,easyanticheat.net
+  - DOMAIN-SUFFIX,epicgames.com
+  - DOMAIN-SUFFIX,epicgames.dev
+  - DOMAIN-SUFFIX,epicgamescdn.com
+  - DOMAIN-SUFFIX,epiccdn.com
+  - DOMAIN-SUFFIX,fortnite.com
+  - DOMAIN-SUFFIX,helpshift.com
+  - DOMAIN-SUFFIX,paragon.com
+  - DOMAIN-SUFFIX,playparagon.com
+  - DOMAIN-SUFFIX,roborecall.com
+  - DOMAIN-SUFFIX,shadowcomplex.com
+  - DOMAIN-SUFFIX,spyjinx.com
+  - DOMAIN-SUFFIX,unrealengine.com
+  - DOMAIN-SUFFIX,unrealengine.com.cn
+  - DOMAIN-SUFFIX,unrealtournament.com
+  - DOMAIN-SUFFIX,unreal-asset.ru
+  - DOMAIN-SUFFIX,unreal-asset.com
+  - DOMAIN-SUFFIX,akamaized.net

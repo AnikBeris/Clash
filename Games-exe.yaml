@@ -1,0 +1,60 @@
+# NAME: Games-exe
+# AUTHOR: AnikBeris
+# REPO: https://github.com/AnikBeris/Clash
+# PROCESS-NAME: 23
+# TOTAL: 23
+
+payload:
+  - PROCESS-NAME,DeltaForceClient-Win64-Shipping.exe
+  - PROCESS-NAME,POLYGON-Win64-Shipping.exe
+  - PROCESS-NAME,crashpad_handler.exe
+  - PROCESS-NAME,eso64.exe
+  - PROCESS-NAME,Bethesda.net_Launcher.exe
+
+  # === Survival / Sandbox ===
+  - PROCESS-NAME,RustClient.exe
+  - PROCESS-NAME,Rust.exe
+  - PROCESS-NAME,DayZ.exe
+  - PROCESS-NAME,SCUM.exe
+  - PROCESS-NAME,ARK.exe
+  - PROCESS-NAME,ARKSurvivalEvolved.exe
+  - PROCESS-NAME,TheForest.exe
+  - PROCESS-NAME,SonsOfTheForest.exe
+
+  # === AAA / Online shooters ===
+  - PROCESS-NAME,FortniteClient-Win64-Shipping.exe
+  - PROCESS-NAME,VALORANT.exe
+  - PROCESS-NAME,cs2.exe
+  - PROCESS-NAME,csgo.exe
+  - PROCESS-NAME,ApexLegends.exe
+  - PROCESS-NAME,Battlefield2042.exe
+  - PROCESS-NAME,BattlefieldV.exe
+  - PROCESS-NAME,Overwatch.exe
+  - PROCESS-NAME,Overwatch2.exe
+
+  # === Rockstar ===
+  - PROCESS-NAME,GTA5.exe
+  - PROCESS-NAME,GTAVLauncher.exe
+  - PROCESS-NAME,RDR2.exe
+
+  # === MMO / Online RPG ===
+  - PROCESS-NAME,BlackDesert64.exe
+  - PROCESS-NAME,NewWorld.exe
+  - PROCESS-NAME,LostArk.exe
+  - PROCESS-NAME,PathOfExile.exe
+  - PROCESS-NAME,Diablo IV.exe
+
+  # === Riot / Blizzard / EA ===
+  - PROCESS-NAME,LeagueClient.exe
+  - PROCESS-NAME,LeagueClientUx.exe
+  - PROCESS-NAME,RiotClientServices.exe
+  - PROCESS-NAME,Battle.net.exe
+  - PROCESS-NAME,EAapp.exe
+  - PROCESS-NAME,Origin.exe
+
+  # === Sandbox / Creative ===
+  - PROCESS-NAME,MinecraftLauncher.exe
+  - PROCESS-NAME,javaw.exe
+  - PROCESS-NAME,Minecraft.Windows.exe
+  - PROCESS-NAME,RobloxPlayerBeta.exe
+  - PROCESS-NAME,GarrysMod.exe

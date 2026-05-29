@@ -1,0 +1,85 @@
+# NAME: DomainRouter
+# AUTHOR: AnikBeris
+# REPO: https://github.com/AnikBeris/Clash
+# DOMAIN-SUFFIX: 40
+# PROCESS-NAME: 1
+# TOTAL: 41
+
+payload:
+  # Xiaomi / Mi WiFi
+  - DOMAIN-SUFFIX,miwifi.com
+  - DOMAIN,router.miwifi.com
+  - DOMAIN,miwifi.com.cn
+  - DOMAIN-SUFFIX,xiaomi.net
+  - DOMAIN-SUFFIX,mi.com
+  - DOMAIN-SUFFIX,api.io.mi.com
+
+  # TP-Link
+  - DOMAIN,tplinkwifi.net
+  - DOMAIN,tplinklogin.net
+  - DOMAIN-SUFFIX,tp-link.com
+  - DOMAIN-SUFFIX,tp-link.net
+  - DOMAIN-SUFFIX,tplinkcloud.com
+  - DOMAIN-SUFFIX,tplinkra.com
+
+  # ASUS
+  - DOMAIN,asusrouter.com
+  - DOMAIN-SUFFIX,asus.com
+  - DOMAIN-SUFFIX,asuscloud.com
+  - DOMAIN-SUFFIX,aicloud.com
+
+  # Keenetic (Zyxel)
+  - DOMAIN,my.keenetic.net
+  - DOMAIN-SUFFIX,keenetic.com
+  - DOMAIN-SUFFIX,zyxel.com
+
+  # MikroTik
+  - DOMAIN,mikrotik.com
+  - DOMAIN-SUFFIX,mikrotik.com
+  - DOMAIN,router.lan
+  - DOMAIN-SUFFIX,mt.lv
+
+  # D-Link
+  - DOMAIN-SUFFIX,mydlink.com
+  - DOMAIN,dlinkrouter.local
+  - DOMAIN-SUFFIX,dlink.com
+  - DOMAIN-SUFFIX,dlink.com.cn
+
+  # Netgear
+  - DOMAIN,routerlogin.net
+  - DOMAIN-SUFFIX,netgear.com
+  - DOMAIN-SUFFIX,nighthawkapp.com
+
+  # Huawei / Honor
+  - DOMAIN,homerouter.cpe
+  - DOMAIN-SUFFIX,huawei.com
+  - DOMAIN-SUFFIX,hicloud.com
+  - DOMAIN-SUFFIX,hilink.com
+
+  # Ubiquiti (UniFi)
+  - DOMAIN,unifi.local
+  - DOMAIN-SUFFIX,ui.com
+  - DOMAIN-SUFFIX,ubnt.com
+
+  # Tenda
+  - DOMAIN,tendawifi.com
+  - DOMAIN-SUFFIX,tenda.com
+
+  # ZTE
+  - DOMAIN-SUFFIX,zte.com.cn
+  - DOMAIN-SUFFIX,zxhn.com
+
+  # Linksys
+  - DOMAIN-SUFFIX,linksys.com
+  - DOMAIN-SUFFIX,linksyssmartwifi.com
+
+  # General router / local networks
+  - DOMAIN,router.local
+  - DOMAIN,192.168.0.1
+  - DOMAIN,192.168.1.1
+  - DOMAIN,10.0.0.1
+
+  # ISP / provisioning portals (common)
+  - DOMAIN-SUFFIX,login.net
+  - DOMAIN-SUFFIX,routerlogin.com
+  - DOMAIN-SUFFIX,setup.net
