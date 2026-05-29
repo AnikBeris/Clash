@@ -1,0 +1,75 @@
+# NAME: whitelist-ru
+# AUTHOR: AnikBeris
+# REPO: https://github.com/AnikBeris/Clash
+# DOMAIN-SUFFIX: 41
+# TOTAL: 41
+
+payload:
+  # === CORE RUS / CIS ECOSYSTEM ===
+  - DOMAIN-SUFFIX,mail.ru
+  - DOMAIN-SUFFIX,vk.ru
+  - DOMAIN-SUFFIX,vk.com
+  - DOMAIN-SUFFIX,ok.ru
+  - DOMAIN-SUFFIX,dzen.ru
+  - DOMAIN-SUFFIX,ya.ru
+  - DOMAIN-SUFFIX,yandex.ru
+  - DOMAIN-SUFFIX,yandex.net
+  - DOMAIN-SUFFIX,yastatic.net
+
+  # === MARKETPLACES / SERVICES ===
+  - DOMAIN-SUFFIX,avito.ru
+  - DOMAIN-SUFFIX,avito.st
+  - DOMAIN-SUFFIX,wb.ru
+  - DOMAIN-SUFFIX,wildberries.ru
+  - DOMAIN-SUFFIX,ozon.ru
+  - DOMAIN-SUFFIX,lemanapro.ru
+
+  # === MAPS / GEO / TRANSPORT ===
+  - DOMAIN-SUFFIX,2gis.ru
+  - DOMAIN-SUFFIX,2gis.com
+  - DOMAIN-SUFFIX,rzd.ru
+  - DOMAIN-SUFFIX,tutu.ru
+
+  # === STATE / GOV ===
+  - DOMAIN-SUFFIX,gosuslugi.ru
+  - DOMAIN-SUFFIX,government.ru
+  - DOMAIN-SUFFIX,kremlin.ru
+  - DOMAIN-SUFFIX,duma.gov.ru
+  - DOMAIN-SUFFIX,izbirkom.ru
+
+  # === BANKS ===
+  - DOMAIN-SUFFIX,sberbank.ru
+  - DOMAIN-SUFFIX,vtb.ru
+  - DOMAIN-SUFFIX,alfabank.ru
+  - DOMAIN-SUFFIX,tbank.ru
+  - DOMAIN-SUFFIX,bank.ozon.ru
+
+  # === MEDIA / CONTENT ===
+  - DOMAIN-SUFFIX,kinopoisk.ru
+  - DOMAIN-SUFFIX,rutube.ru
+  - DOMAIN-SUFFIX,rbc.ru
+  - DOMAIN-SUFFIX,lenta.ru
+  - DOMAIN-SUFFIX,gazeta.ru
+  - DOMAIN-SUFFIX,mail.ru
+  - DOMAIN-SUFFIX,livejournal.com
+
+  # === APIS / INFRA (IMPORTANT FOR APPS) ===
+  - DOMAIN-SUFFIX,api.vk.ru
+  - DOMAIN-SUFFIX,api.ok.ru
+  - DOMAIN-SUFFIX,api.mail.ru
+  - DOMAIN-SUFFIX,api.2gis.ru
+  - DOMAIN-SUFFIX,mc.yandex.ru
+  - DOMAIN-SUFFIX,an.yandex.ru
+  - DOMAIN-SUFFIX,dr.yandex.net
+
+  # === CDN / STORAGE ===
+  - DOMAIN-SUFFIX,yandex.net
+  - DOMAIN-SUFFIX,yastatic.net
+  - DOMAIN-SUFFIX,s3.yandex.net
+  - DOMAIN-SUFFIX,cdn.yandex.ru
+  - DOMAIN-SUFFIX,cloud.mail.ru
+  - DOMAIN-SUFFIX,avatars.mds.yandex.net
+
+  # === GAME / ENTERTAINMENT ECOSYSTEM (optional but clean) ===
+  - DOMAIN-SUFFIX,kinopoisk.ru
+  - DOMAIN-SUFFIX,ok.ru
