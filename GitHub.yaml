@@ -1,0 +1,59 @@
+# NAME: GitHub
+# AUTHOR: AnikBeris
+# REPO: https://github.com/AnikBeris/Clash
+# DOMAIN-KEYWORD: 1
+# DOMAIN-SUFFIX: 40
+# TOTAL: 41
+
+payload:
+  # =====================
+  # CORE GITHUB
+  # =====================
+  - DOMAIN-SUFFIX,github.com
+  - DOMAIN-SUFFIX,github.io
+  - DOMAIN-SUFFIX,githubusercontent.com
+  - DOMAIN-SUFFIX,githubassets.com
+  - DOMAIN-SUFFIX,githubapp.com
+  - DOMAIN-SUFFIX,github.dev
+  - DOMAIN-SUFFIX,github.blog
+  - DOMAIN-SUFFIX,github.community
+  - DOMAIN-SUFFIX,githubstatus.com
+
+  # =====================
+  # COPILOT / AI / DEV ECOSYSTEM
+  # =====================
+  - DOMAIN-SUFFIX,githubcopilot.com
+  - DOMAIN-SUFFIX,githubnext.com
+  - DOMAIN-SUFFIX,githubpreview.dev
+  - DOMAIN-SUFFIX,dependabot.com
+  - DOMAIN-SUFFIX,repo.new
+  - DOMAIN-SUFFIX,opensource.guide
+
+  # =====================
+  # PACKAGES / REGISTRY
+  # =====================
+  - DOMAIN-SUFFIX,ghcr.io
+  - DOMAIN-SUFFIX,npmjs.com
+  - DOMAIN-SUFFIX,npmjs.org
+  - DOMAIN-SUFFIX,git.io
+  - DOMAIN-SUFFIX,rawgit.com
+  - DOMAIN-SUFFIX,rawgithub.com
+
+  # =====================
+  # CDN / STORAGE
+  # =====================
+  - DOMAIN-SUFFIX,github-cloud.s3.amazonaws.com
+  - DOMAIN-SUFFIX,github-avatars.oss-cn-hongkong.aliyuncs.com
+
+  # =====================
+  # COMMUNITY / EVENTS
+  # =====================
+  - DOMAIN-SUFFIX,githubhackathon.com
+  - DOMAIN-SUFFIX,githubuniverse.com
+  - DOMAIN-SUFFIX,thegithubshop.com
+  - DOMAIN-SUFFIX,myoctocat.com
+
+  # =====================
+  # KEYWORD ROUTING
+  # =====================
+  - DOMAIN-KEYWORD,github

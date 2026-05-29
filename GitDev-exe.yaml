@@ -1,0 +1,38 @@
+# NAME: DevApps
+# AUTHOR: AnikBeris
+# REPO: https://github.com/AnikBeris/Clash
+# PROCESS-NAME: 14
+# TOTAL: 14
+
+payload:
+
+  # =====================
+  # GIT / VERSION CONTROL
+  # =====================
+  - PROCESS-NAME,git.exe
+  - PROCESS-NAME,git-remote-http.exe
+  - PROCESS-NAME,git-remote-https.exe
+  - PROCESS-NAME,git-bash.exe
+
+  # =====================
+  # GITHUB ECOSYSTEM
+  # =====================
+  - PROCESS-NAME,GitHubDesktop.exe
+  - PROCESS-NAME,Fork.exe
+  - PROCESS-NAME,github.exe
+  - PROCESS-NAME,copilot.exe
+  - PROCESS-NAME,gh.exe
+
+  # =====================
+  # GITLAB ECOSYSTEM
+  # =====================
+  - PROCESS-NAME,gitlab.exe
+  - PROCESS-NAME,gitlab-runner.exe
+
+  # =====================
+  # GIT CLIENTS / GUI TOOLS
+  # =====================
+  - PROCESS-NAME,Sourcetree.exe
+  - PROCESS-NAME,TortoiseGit.exe
+  - PROCESS-NAME,GitKraken.exe
+  - PROCESS-NAME,SmartGit.exe

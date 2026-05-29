@@ -1,0 +1,55 @@
+# NAME: Anthropic
+# AUTHOR: AnikBeris
+# REPO: https://github.com/AnikBeris/Clash
+# DOMAIN: 4
+# DOMAIN-SUFFIX: 6
+# DOMAIN-KEYWORD: 1
+# PROCESS-NAME: 4
+# TOTAL: 15
+
+payload:
+
+  # =====================
+  # CORE WEB / FRONTEND
+  # =====================
+  - DOMAIN,claude.ai
+  - DOMAIN,api.anthropic.com
+
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,claude.ai
+
+  # =====================
+  # CDN / STATIC / MEDIA
+  # =====================
+  - DOMAIN,servd-anthropic-website.b-cdn.net
+  - DOMAIN-SUFFIX,anthropiccdn.com
+  - DOMAIN-SUFFIX,claudeusercontent.com
+
+  # =====================
+  # AUTH / SECURITY LAYER
+  # =====================
+  - DOMAIN-SUFFIX,auth.anthropic.com
+
+  # =====================
+  # API / INFRA LAYER
+  # =====================
+  - DOMAIN-SUFFIX,api.anthropic.com
+  - DOMAIN-SUFFIX,console.anthropic.com
+
+  # =====================
+  # TELEMETRY (STABILITY LAYER)
+  # =====================
+  - DOMAIN-SUFFIX,sentry.io
+
+  # =====================
+  # KEYWORDS (FALLBACK ROUTING)
+  # =====================
+  - DOMAIN-KEYWORD,anthropic
+
+  # =====================
+  # DESKTOP / PC APPLICATIONS
+  # =====================
+  - PROCESS-NAME,Claude.exe
+  - PROCESS-NAME,Claude Desktop.exe
+  - PROCESS-NAME,claude.exe
+  - PROCESS-NAME,claude-cli.exe

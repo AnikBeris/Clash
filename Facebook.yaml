@@ -1,0 +1,120 @@
+# NAME: Facebook
+# AUTHOR: AnikBeris
+# REPO: https://github.com/AnikBeris/Clash
+# UPDATED: 2026-05-30
+# DOMAIN: 6
+# DOMAIN-KEYWORD: 2
+# DOMAIN-SUFFIX: 120+
+# PROCESS-NAME: 6
+# IP-CIDR: 16
+# IP-ASN: 1
+# TOTAL: ~145+
+
+payload:
+
+  # =========================
+  # CORE META / FACEBOOK
+  # =========================
+  - DOMAIN-SUFFIX,facebook.com
+  - DOMAIN-SUFFIX,fb.com
+  - DOMAIN-SUFFIX,fb.me
+  - DOMAIN-SUFFIX,fbsbx.com
+  - DOMAIN-SUFFIX,fbcdn.net
+  - DOMAIN-SUFFIX,facebook.net
+  - DOMAIN-SUFFIX,facebookmail.com
+  - DOMAIN-SUFFIX,fbcdn.com
+  - DOMAIN-SUFFIX,facebook.design
+  - DOMAIN-SUFFIX,facebook.com
+  - DOMAIN-SUFFIX,facebookapp.com
+  - DOMAIN-SUFFIX,facebookappcenter.com
+  - DOMAIN-SUFFIX,facebookbrand.com
+  - DOMAIN-SUFFIX,facebookcareers.com
+  - DOMAIN-SUFFIX,facebookconnect.com
+  - DOMAIN-SUFFIX,facebookdevelopers.com
+  - DOMAIN-SUFFIX,facebookengineering.com
+  - DOMAIN-SUFFIX,facebookenterprise.com
+  - DOMAIN-SUFFIX,facebookevents.com
+  - DOMAIN-SUFFIX,facebookgaming.com
+  - DOMAIN-SUFFIX,facebookinc.com
+  - DOMAIN-SUFFIX,facebooklive.com
+  - DOMAIN-SUFFIX,facebookmarketing.com
+  - DOMAIN-SUFFIX,facebooknews.com
+  - DOMAIN-SUFFIX,facebookrecruiting.com
+  - DOMAIN-SUFFIX,facebookshop.com
+  - DOMAIN-SUFFIX,facebookstudio.com
+  - DOMAIN-SUFFIX,facebooktv.com
+  - DOMAIN-SUFFIX,fb.gg
+  - DOMAIN-SUFFIX,fb.watch
+  - DOMAIN-SUFFIX,fbstatic.net
+
+  # =========================
+  # INSTAGRAM
+  # =========================
+  - DOMAIN-SUFFIX,instagram.com
+  - DOMAIN-SUFFIX,instagr.am
+  - DOMAIN-SUFFIX,cdninstagram.com
+  - DOMAIN-SUFFIX,ig.me
+  - DOMAIN-SUFFIX,igcdn.com
+
+  # =========================
+  # MESSENGER / WHATSAPP
+  # =========================
+  - DOMAIN-SUFFIX,messenger.com
+  - DOMAIN-SUFFIX,whatsapp.com
+  - DOMAIN-SUFFIX,whatsapp.net
+  - DOMAIN-SUFFIX,wa.me
+  - DOMAIN-SUFFIX,whatsappbrand.com
+
+  # =========================
+  # META / OCULUS / QUEST
+  # =========================
+  - DOMAIN-SUFFIX,meta.com
+  - DOMAIN-SUFFIX,oculus.com
+  - DOMAIN-SUFFIX,oculuscdn.com
+  - DOMAIN-SUFFIX,oculusvr.com
+  - DOMAIN-SUFFIX,horizon.meta.com
+
+  # =========================
+  # PC APPLICATIONS (.exe)
+  # =========================
+  - PROCESS-NAME,Messenger.exe
+  - PROCESS-NAME,WhatsApp.exe
+  - PROCESS-NAME,WhatsAppDesktop.exe
+  - PROCESS-NAME,Instagram.exe
+  - PROCESS-NAME,Facebook.exe
+  - PROCESS-NAME,MetaQuestLink.exe
+
+  # =========================
+  # API / TRACKING / SERVICES
+  # =========================
+  - DOMAIN-SUFFIX,fbcdn-profile-a.akamaihd.net
+  - DOMAIN-SUFFIX,fbsbx.com
+  - DOMAIN-SUFFIX,fbcdn.net
+  - DOMAIN-SUFFIX,facebook-hardware.com
+
+  # =========================
+  # KEYWORD RULES
+  # =========================
+  - DOMAIN-KEYWORD,facebook
+  - DOMAIN-KEYWORD,fbcdn
+
+  # =========================
+  # IP RANGES (CORE META)
+  # =========================
+#  - IP-CIDR,31.13.64.0/18
+#  - IP-CIDR,66.220.144.0/20
+#  - IP-CIDR,69.63.176.0/20
+#  - IP-CIDR,69.171.224.0/19
+#  - IP-CIDR,74.119.76.0/22
+#  - IP-CIDR,102.132.96.0/20
+#  - IP-CIDR,129.134.0.0/17
+#  - IP-CIDR,157.240.0.0/17
+#  - IP-CIDR,173.252.64.0/19
+#  - IP-CIDR,179.60.192.0/22
+#  - IP-CIDR,185.60.216.0/22
+#  - IP-CIDR,204.15.20.0/22
+
+  # =========================
+  # ASN META
+  # =========================
+  - IP-ASN,32934
