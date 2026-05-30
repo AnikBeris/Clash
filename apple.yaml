@@ -1,0 +1,105 @@
+# NAME: Apple
+# AUTHOR: AnikBeris
+# REPO: https://github.com/AnikBeris/Clash
+# DOMAIN: 9
+# DOMAIN-KEYWORD: 9
+# DOMAIN-SUFFIX: 45
+# PROCESS-NAME: 23
+# TOTAL: 86
+
+payload:
+# DOMAIN
+
+  - DOMAIN,appleid.apple.com
+  - DOMAIN,developer.apple.com
+  - DOMAIN,apps.apple.com
+  - DOMAIN,books.apple.com
+  - DOMAIN,music.apple.com
+  - DOMAIN,tv.apple.com
+  - DOMAIN,support.apple.com
+  - DOMAIN,feedback.apple.com
+  - DOMAIN,beta.apple.com
+  
+  # DOMAIN-KEYWORD
+  
+  - DOMAIN-KEYWORD,apple
+  - DOMAIN-KEYWORD,appleid
+  - DOMAIN-KEYWORD,icloud
+  - DOMAIN-KEYWORD,itunes
+  - DOMAIN-KEYWORD,testflight
+  - DOMAIN-KEYWORD,appstore
+  - DOMAIN-KEYWORD,facetime
+  - DOMAIN-KEYWORD,imessage
+  - DOMAIN-KEYWORD,siri
+  
+  # DOMAIN-SUFFIX
+  
+  - DOMAIN-SUFFIX,aaplimg.com
+  - DOMAIN-SUFFIX,apple.co
+  - DOMAIN-SUFFIX,apple.com
+  - DOMAIN-SUFFIX,apple-cloudkit.com
+  - DOMAIN-SUFFIX,apple-dns.net
+  - DOMAIN-SUFFIX,apple-mapkit.com
+  - DOMAIN-SUFFIX,apple.news
+  - DOMAIN-SUFFIX,applemusic.com
+  - DOMAIN-SUFFIX,applenews.com
+  - DOMAIN-SUFFIX,appletv.com
+  - DOMAIN-SUFFIX,appstore.com
+  - DOMAIN-SUFFIX,cdn-apple.com
+  - DOMAIN-SUFFIX,crashlytics.com
+  - DOMAIN-SUFFIX,icloud.com
+  - DOMAIN-SUFFIX,icloud-content.com
+  - DOMAIN-SUFFIX,icloud.apple
+  - DOMAIN-SUFFIX,idmsa.apple.com
+  - DOMAIN-SUFFIX,itunes.apple.com
+  - DOMAIN-SUFFIX,itunes.com
+  - DOMAIN-SUFFIX,me.com
+  - DOMAIN-SUFFIX,mzstatic.com
+  - DOMAIN-SUFFIX,podcasts.apple.com
+  - DOMAIN-SUFFIX,push.apple.com
+  - DOMAIN-SUFFIX,safebrowsing.apple
+  - DOMAIN-SUFFIX,testflight.apple.com
+  - DOMAIN-SUFFIX,apple-pay-gateway.apple
+  - DOMAIN-SUFFIX,apple-pay-gateway-cert.apple
+  - DOMAIN-SUFFIX,applecard.apple
+  - DOMAIN-SUFFIX,applecash.apple
+  - DOMAIN-SUFFIX,appleone.apple
+  - DOMAIN-SUFFIX,applemusic.apple
+  - DOMAIN-SUFFIX,appletv.apple
+  - DOMAIN-SUFFIX,beats1.apple.com
+  - DOMAIN-SUFFIX,books.apple.com
+  - DOMAIN-SUFFIX,findmy.apple.com
+  - DOMAIN-SUFFIX,gateway.icloud.com
+  - DOMAIN-SUFFIX,mask.icloud.com
+  - DOMAIN-SUFFIX,private-relay.appleid.com
+  - DOMAIN-SUFFIX,push-apple.com.akadns.net
+  - DOMAIN-SUFFIX,setup.icloud.com
+  - DOMAIN-SUFFIX,share.icloud.com
+  - DOMAIN-SUFFIX,smp-device-content.apple.com
+  - DOMAIN-SUFFIX,updates-http.cdn-apple.com
+  - DOMAIN-SUFFIX,updates.cdn-apple.com
+  - DOMAIN-SUFFIX,xp.apple.com
+
+  - PROCESS-NAME,App Store
+  - PROCESS-NAME,Apple Music
+  - PROCESS-NAME,Apple TV
+  - PROCESS-NAME,AppleTV
+  - PROCESS-NAME,AppleMusic
+  - PROCESS-NAME,Books
+  - PROCESS-NAME,FaceTime
+  - PROCESS-NAME,FindMy
+  - PROCESS-NAME,Finder
+  - PROCESS-NAME,iCloud
+  - PROCESS-NAME,iCloud Drive
+  - PROCESS-NAME,iTunes
+  - PROCESS-NAME,Maps
+  - PROCESS-NAME,Music
+  - PROCESS-NAME,PhotoLibrary
+  - PROCESS-NAME,Photos
+  - PROCESS-NAME,Safari
+  - PROCESS-NAME,Siri
+  - PROCESS-NAME,Software Update
+  - PROCESS-NAME,TestFlight
+  - PROCESS-NAME,TV
+  - PROCESS-NAME,Xcode
+  - PROCESS-NAME,XcodeCloud
