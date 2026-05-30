@@ -1,7 +1,6 @@
 # NAME: Facebook
 # AUTHOR: AnikBeris
 # REPO: https://github.com/AnikBeris/Clash
-# UPDATED: 2026-05-30
 # DOMAIN: 6
 # DOMAIN-KEYWORD: 2
 # DOMAIN-SUFFIX: 120+
@@ -117,4 +116,4 @@ payload:
   # =========================
   # ASN META
   # =========================
-  - IP-ASN,32934
+#  - IP-ASN,32934
