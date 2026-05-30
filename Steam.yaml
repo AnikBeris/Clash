@@ -1,16 +1,9 @@
 # NAME: Steam
 # AUTHOR: AnikBeris
 # REPO: https://github.com/AnikBeris/Clash
-# DOMAIN-KEYWORD: 3
-# DOMAIN-SUFFIX: 61
-# PROCESS-NAME: 2
-# IP-ASN: 1
-# TOTAL: 67
+
 
 payload:
-  - PROCESS-NAME,steamwebhelper.exe
-  - PROCESS-NAME,steam.exe
-
   - DOMAIN-SUFFIX,cdn-ali.content.steamchina.com
   - DOMAIN-SUFFIX,cdn-qc.content.steamchina.com
   - DOMAIN-SUFFIX,cdn-ws.content.steamchina.com
@@ -73,6 +66,3 @@ payload:
   - DOMAIN-SUFFIX,store.steampowered.com
   - DOMAIN-SUFFIX,api.steampowered.com
   - DOMAIN-SUFFIX,valve.net
-
-  # VALVE NETWORK (P2P / DOWNLOAD / VOICE)
-#  - IP-ASN,32590

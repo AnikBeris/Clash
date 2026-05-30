@@ -1,13 +1,7 @@
 # NAME: OpenAI
 # AUTHOR: AnikBeris
 # REPO: https://github.com/AnikBeris/Clash
-# DOMAIN: 8
-# DOMAIN-KEYWORD: 1
-# DOMAIN-SUFFIX: 30
-# IP-ASN: 1
-# IP-CIDR: 2
-# PROCESS-NAME: 3
-# TOTAL: 45
+
 
 payload:
   - DOMAIN,browser-intake-datadoghq.com
@@ -47,13 +41,3 @@ payload:
   - DOMAIN-SUFFIX,cloudflare.com
 
   - DOMAIN-KEYWORD,openai
-
-#  - IP-CIDR,24.199.123.28/32
-#  - IP-CIDR,64.23.132.171/32
-
-#  - IP-ASN,20473
-
-  # === DESKTOP / APP LAYER (IMPORTANT ADDITION) ===
-  - PROCESS-NAME,ChatGPT.exe
-  - PROCESS-NAME,OpenAI.exe
-  - PROCESS-NAME,openai-cli.exe

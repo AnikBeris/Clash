@@ -1,8 +1,7 @@
 # NAME: Cloudflare
 # AUTHOR: AnikBeris
 # REPO: https://github.com/AnikBeris/Clash
-# DOMAIN-SUFFIX: 43
-# TOTAL: 43
+
 payload:
   - DOMAIN-SUFFIX,cf-ipfs.com
   - DOMAIN-SUFFIX,cf-ns.com

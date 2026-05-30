@@ -1,13 +1,8 @@
 # NAME: EpicGames
 # AUTHOR: AnikBeris
 # REPO: https://github.com/AnikBeris/Clash
-# DOMAIN-SUFFIX: 22
-# PROCESS-NAME: 1
-# TOTAL: 23
 
 payload:
-  - PROCESS-NAME,EpicGamesLauncher.exe
-
   - DOMAIN-SUFFIX,fab.com
   - DOMAIN-SUFFIX,battlebreakers.com
   - DOMAIN-SUFFIX,eac-cdn.com

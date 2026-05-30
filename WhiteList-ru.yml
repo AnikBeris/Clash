@@ -1,8 +1,7 @@
 # NAME: whitelist-ru
 # AUTHOR: AnikBeris
 # REPO: https://github.com/AnikBeris/Clash
-# DOMAIN-SUFFIX: 41
-# TOTAL: 41
+
 
 payload:
   # === CORE RUS / CIS ECOSYSTEM ===

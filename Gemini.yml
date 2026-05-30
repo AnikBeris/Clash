@@ -1,11 +1,7 @@
 # NAME: Gemini
 # AUTHOR: AnikBeris
 # REPO: https://github.com/AnikBeris/Clash
-# DOMAIN: 5
-# DOMAIN-KEYWORD: 5
-# DOMAIN-SUFFIX: 18
-# PROCESS-NAME: 6
-# TOTAL: 34
+
 
 payload:
   # === CORE Gemini / Google AI ===
@@ -27,7 +23,6 @@ payload:
   - DOMAIN-SUFFIX,cloud.google.com
   - DOMAIN-SUFFIX,console.cloud.google.com
   - DOMAIN-SUFFIX,aiplatform.googleapis.com
-
   - DOMAIN-SUFFIX,generativeai.googleapis.com
   - DOMAIN-SUFFIX,language.googleapis.com
   - DOMAIN-SUFFIX,serving-sys.googleapis.com
@@ -51,11 +46,3 @@ payload:
   - DOMAIN-SUFFIX,accounts.google.com
   - DOMAIN-SUFFIX,oauth.googleusercontent.com
   - DOMAIN-SUFFIX,sso.google.com
-
-  # === DESKTOP / CLI APPS (IMPORTANT ADDITION) ===
-  - PROCESS-NAME,gemini.exe
-  - PROCESS-NAME,gemini-cli.exe
-  - PROCESS-NAME,intelligencegravity.exe
-  - PROCESS-NAME,intelligence-gravity.exe
-  - PROCESS-NAME,intgravity.exe
-  - PROCESS-NAME,ig-cli.exe

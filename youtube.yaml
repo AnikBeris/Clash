@@ -1,9 +1,7 @@
 # NAME: YouTube
 # AUTHOR: AnikBeris
 # REPO: https://github.com/AnikBeris/Clash
-# DOMAIN-KEYWORD: 1
-# DOMAIN-SUFFIX: 179
-# TOTAL: 180
+
 payload:
   - DOMAIN-SUFFIX,ggpht.cn
   - DOMAIN-SUFFIX,ggpht.com

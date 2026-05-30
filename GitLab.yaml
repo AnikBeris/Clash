@@ -1,8 +1,6 @@
 # NAME: GitLab
 # AUTHOR: AnikBeris
 # REPO: https://github.com/AnikBeris/Clash
-# DOMAIN-SUFFIX: 6
-# TOTAL: 6
 
 payload:
   - DOMAIN-SUFFIX,gitlab.com

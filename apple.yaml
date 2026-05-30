@@ -1,15 +1,9 @@
 # NAME: Apple
 # AUTHOR: AnikBeris
 # REPO: https://github.com/AnikBeris/Clash
-# DOMAIN: 9
-# DOMAIN-KEYWORD: 9
-# DOMAIN-SUFFIX: 45
-# PROCESS-NAME: 23
-# TOTAL: 86
 
 payload:
-# DOMAIN
-
+  # DOMAIN
   - DOMAIN,appleid.apple.com
   - DOMAIN,developer.apple.com
   - DOMAIN,apps.apple.com
@@ -21,7 +15,6 @@ payload:
   - DOMAIN,beta.apple.com
   
   # DOMAIN-KEYWORD
-  
   - DOMAIN-KEYWORD,apple
   - DOMAIN-KEYWORD,appleid
   - DOMAIN-KEYWORD,icloud
@@ -33,7 +26,6 @@ payload:
   - DOMAIN-KEYWORD,siri
   
   # DOMAIN-SUFFIX
-  
   - DOMAIN-SUFFIX,aaplimg.com
   - DOMAIN-SUFFIX,apple.co
   - DOMAIN-SUFFIX,apple.com
@@ -79,27 +71,3 @@ payload:
   - DOMAIN-SUFFIX,updates-http.cdn-apple.com
   - DOMAIN-SUFFIX,updates.cdn-apple.com
   - DOMAIN-SUFFIX,xp.apple.com
-
-  - PROCESS-NAME,App Store
-  - PROCESS-NAME,Apple Music
-  - PROCESS-NAME,Apple TV
-  - PROCESS-NAME,AppleTV
-  - PROCESS-NAME,AppleMusic
-  - PROCESS-NAME,Books
-  - PROCESS-NAME,FaceTime
-  - PROCESS-NAME,FindMy
-  - PROCESS-NAME,Finder
-  - PROCESS-NAME,iCloud
-  - PROCESS-NAME,iCloud Drive
-  - PROCESS-NAME,iTunes
-  - PROCESS-NAME,Maps
-  - PROCESS-NAME,Music
-  - PROCESS-NAME,PhotoLibrary
-  - PROCESS-NAME,Photos
-  - PROCESS-NAME,Safari
-  - PROCESS-NAME,Siri
-  - PROCESS-NAME,Software Update
-  - PROCESS-NAME,TestFlight
-  - PROCESS-NAME,TV
-  - PROCESS-NAME,Xcode
-  - PROCESS-NAME,XcodeCloud

@@ -1,16 +1,8 @@
 # NAME: Facebook
 # AUTHOR: AnikBeris
 # REPO: https://github.com/AnikBeris/Clash
-# DOMAIN: 6
-# DOMAIN-KEYWORD: 2
-# DOMAIN-SUFFIX: 120+
-# PROCESS-NAME: 6
-# IP-CIDR: 16
-# IP-ASN: 1
-# TOTAL: ~145+
 
 payload:
-
   # =========================
   # CORE META / FACEBOOK
   # =========================
@@ -23,7 +15,6 @@ payload:
   - DOMAIN-SUFFIX,facebookmail.com
   - DOMAIN-SUFFIX,fbcdn.com
   - DOMAIN-SUFFIX,facebook.design
-  - DOMAIN-SUFFIX,facebook.com
   - DOMAIN-SUFFIX,facebookapp.com
   - DOMAIN-SUFFIX,facebookappcenter.com
   - DOMAIN-SUFFIX,facebookbrand.com
@@ -74,21 +65,9 @@ payload:
   - DOMAIN-SUFFIX,horizon.meta.com
 
   # =========================
-  # PC APPLICATIONS (.exe)
-  # =========================
-  - PROCESS-NAME,Messenger.exe
-  - PROCESS-NAME,WhatsApp.exe
-  - PROCESS-NAME,WhatsAppDesktop.exe
-  - PROCESS-NAME,Instagram.exe
-  - PROCESS-NAME,Facebook.exe
-  - PROCESS-NAME,MetaQuestLink.exe
-
-  # =========================
   # API / TRACKING / SERVICES
   # =========================
   - DOMAIN-SUFFIX,fbcdn-profile-a.akamaihd.net
-  - DOMAIN-SUFFIX,fbsbx.com
-  - DOMAIN-SUFFIX,fbcdn.net
   - DOMAIN-SUFFIX,facebook-hardware.com
 
   # =========================

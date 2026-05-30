@@ -1,14 +1,8 @@
 # NAME: Anthropic
 # AUTHOR: AnikBeris
 # REPO: https://github.com/AnikBeris/Clash
-# DOMAIN: 4
-# DOMAIN-SUFFIX: 6
-# DOMAIN-KEYWORD: 1
-# PROCESS-NAME: 4
-# TOTAL: 15
 
 payload:
-
   # =====================
   # CORE WEB / FRONTEND
   # =====================
@@ -45,11 +39,3 @@ payload:
   # KEYWORDS (FALLBACK ROUTING)
   # =====================
   - DOMAIN-KEYWORD,anthropic
-
-  # =====================
-  # DESKTOP / PC APPLICATIONS
-  # =====================
-  - PROCESS-NAME,Claude.exe
-  - PROCESS-NAME,Claude Desktop.exe
-  - PROCESS-NAME,claude.exe
-  - PROCESS-NAME,claude-cli.exe

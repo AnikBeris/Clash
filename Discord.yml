@@ -1,9 +1,6 @@
 # NAME: Discord
 # AUTHOR: AnikBeris
 # REPO: https://github.com/AnikBeris/Clash
-# DOMAIN-SUFFIX: 29
-# PROCESS-NAME: 5
-# TOTAL: 34
 
 payload:
   - DOMAIN-SUFFIX,airhorn.solutions
@@ -34,10 +31,3 @@ payload:
   - DOMAIN-SUFFIX,discordstatus.com
   - DOMAIN-SUFFIX,hammerandchisel.ssl.zendesk.com
   - DOMAIN-SUFFIX,watchanimeattheoffice.com
-
-  # === PC APPLICATION LAYER (IMPORTANT FIX) ===
-  - PROCESS-NAME,Discord.exe
-  - PROCESS-NAME,DiscordPTB.exe
-  - PROCESS-NAME,DiscordCanary.exe
-  - PROCESS-NAME,Update.exe
-  - PROCESS-NAME,Squirrel.exe

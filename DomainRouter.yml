@@ -1,9 +1,6 @@
 # NAME: DomainRouter
 # AUTHOR: AnikBeris
 # REPO: https://github.com/AnikBeris/Clash
-# DOMAIN-SUFFIX: 40
-# PROCESS-NAME: 1
-# TOTAL: 41
 
 payload:
   # Xiaomi / Mi WiFi
@@ -75,9 +72,9 @@ payload:
 
   # General router / local networks
   - DOMAIN,router.local
-  - DOMAIN,192.168.0.1
-  - DOMAIN,192.168.1.1
-  - DOMAIN,10.0.0.1
+#  - DOMAIN,192.168.0.1
+#  - DOMAIN,192.168.1.1
+#  - DOMAIN,10.0.0.1
 
   # ISP / provisioning portals (common)
   - DOMAIN-SUFFIX,login.net

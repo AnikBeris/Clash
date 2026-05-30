@@ -1,10 +1,6 @@
 # NAME: Gitee
 # AUTHOR: AnikBeris
 # REPO: https://github.com/AnikBeris/Clash
-# UPDATED: 2026-05-29
-# DOMAIN-SUFFIX: 2
-# PROCESS-NAME: 0
-# TOTAL: 2
 
 payload:
   - DOMAIN-SUFFIX,gitee.com

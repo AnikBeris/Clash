@@ -1,8 +1,7 @@
 # NAME: torrent-exe
 # AUTHOR: AnikBeris
 # REPO: https://github.com/AnikBeris/Clash
-# PROCESS-NAME: 24
-# TOTAL: 24
+
 
 payload:
   # === Торренты ===
