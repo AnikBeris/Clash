@@ -2,7 +2,6 @@
 # AUTHOR: AnikBeris
 # REPO: https://github.com/AnikBeris/Clash
 
-payload:
   - DOMAIN-SUFFIX,fab.com
   # Основные домены Epic Games
   - DOMAIN-SUFFIX,epicgames.com
