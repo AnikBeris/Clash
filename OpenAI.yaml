@@ -2,8 +2,6 @@
 # AUTHOR: AnikBeris
 # REPO: https://github.com/AnikBeris/Clash
 
-
-payload:
   - DOMAIN,browser-intake-datadoghq.com
   - DOMAIN,chat.openai.com.cdn.cloudflare.net
   - DOMAIN,openai-api.arkoselabs.com
