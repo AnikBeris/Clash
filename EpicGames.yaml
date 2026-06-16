@@ -4,24 +4,89 @@
 
 payload:
   - DOMAIN-SUFFIX,fab.com
-  - DOMAIN-SUFFIX,battlebreakers.com
-  - DOMAIN-SUFFIX,eac-cdn.com
-  - DOMAIN-SUFFIX,easy.ac
-  - DOMAIN-SUFFIX,easyanticheat.net
+  # Основные домены Epic Games
   - DOMAIN-SUFFIX,epicgames.com
   - DOMAIN-SUFFIX,epicgames.dev
   - DOMAIN-SUFFIX,epicgamescdn.com
   - DOMAIN-SUFFIX,epiccdn.com
-  - DOMAIN-SUFFIX,fortnite.com
-  - DOMAIN-SUFFIX,helpshift.com
-  - DOMAIN-SUFFIX,paragon.com
-  - DOMAIN-SUFFIX,playparagon.com
-  - DOMAIN-SUFFIX,roborecall.com
-  - DOMAIN-SUFFIX,shadowcomplex.com
-  - DOMAIN-SUFFIX,spyjinx.com
+  - DOMAIN-SUFFIX,epicgames.net
+  - DOMAIN-SUFFIX,epicgames.io
+  - DOMAIN-SUFFIX,epicgames.dev
+
+  # Unreal Engine
   - DOMAIN-SUFFIX,unrealengine.com
   - DOMAIN-SUFFIX,unrealengine.com.cn
   - DOMAIN-SUFFIX,unrealtournament.com
-  - DOMAIN-SUFFIX,unreal-asset.ru
-  - DOMAIN-SUFFIX,unreal-asset.com
+  - DOMAIN-SUFFIX,roborecall.com
+  - DOMAIN-SUFFIX,shadowcomplex.com
+  - DOMAIN-SUFFIX,paragon.com
+  - DOMAIN-SUFFIX,playparagon.com
+  - DOMAIN-SUFFIX,spyjinx.com
+  - DOMAIN-SUFFIX,battlebreakers.com
+
+  # FAB и Marketplace
+  - DOMAIN-SUFFIX,fab.com
+  - DOMAIN-SUFFIX,fab-api.com
+  - DOMAIN-SUFFIX,quixel.com
+  - DOMAIN-SUFFIX,quixel.se
+  - DOMAIN-SUFFIX,megascans.se
+  - DOMAIN-SUFFIX,sketchfab.com
+
+  # Easy Anti-Cheat
+  - DOMAIN-SUFFIX,easy.ac
+  - DOMAIN-SUFFIX,easyanticheat.net
+  - DOMAIN-SUFFIX,eac-cdn.com
+  - DOMAIN-SUFFIX,eac-prod.on.epicgames.com
+
+  # Аккаунты и авторизация
+  - DOMAIN-SUFFIX,epicgames.dev
+  - DOMAIN-SUFFIX,epicgames.com
+  - DOMAIN-SUFFIX,ol.epicgames.com
+  - DOMAIN-SUFFIX,account-public-service-prod.ol.epicgames.com
+  - DOMAIN-SUFFIX,account-public-service-prod03.ol.epicgames.com
+  - DOMAIN-SUFFIX,persona-public-service-prod06.ol.epicgames.com
+  - DOMAIN-SUFFIX,friends-public-service-prod.ol.epicgames.com
+  - DOMAIN-SUFFIX,lightswitch-public-service-prod.ol.epicgames.com
+
+  # Store и Launcher
+  - DOMAIN-SUFFIX,launcher-public-service-prod06.ol.epicgames.com
+  - DOMAIN-SUFFIX,catalog-public-service-prod06.ol.epicgames.com
+  - DOMAIN-SUFFIX,entitlement-public-service-prod08.ol.epicgames.com
+  - DOMAIN-SUFFIX,priceengine-public-service-ecomprod01.ol.epicgames.com
+  - DOMAIN-SUFFIX,payment-website-pci.ol.epicgames.com
+  - DOMAIN-SUFFIX,store-content.ak.epicgames.com
+  - DOMAIN-SUFFIX,download.epicgames.com
+  - DOMAIN-SUFFIX,tracking.epicgames.com
+
+  # Fortnite
+  - DOMAIN-SUFFIX,fortnite.com
+  - DOMAIN-SUFFIX,fortnitecontent-website-prod07.ol.epicgames.com
+  - DOMAIN-SUFFIX,fortnite-public-service-prod11.ol.epicgames.com
+  - DOMAIN-SUFFIX,fngw-mcp-gc-livefn.ol.epicgames.com
+
+  # Облачные сервисы Epic Online Services (EOS)
+  - DOMAIN-SUFFIX,on.epicgames.com
+  - DOMAIN-SUFFIX,epic-online-services.com
+  - DOMAIN-SUFFIX,eoshelp.epicgames.com
+  - DOMAIN-SUFFIX,eos-gateway-prod.ecosec.on.epicgames.com
+  - DOMAIN-SUFFIX,api.epicgames.dev
+
+  # Документация и разработка
+  - DOMAIN-SUFFIX,dev.epicgames.com
+  - DOMAIN-SUFFIX,docs.unrealengine.com
+  - DOMAIN-SUFFIX,cdn1.unrealengine.com
+  - DOMAIN-SUFFIX,d3kjluh73b9h9o.cloudfront.net
+
+  # Поддержка
+  - DOMAIN-SUFFIX,helpshift.com
+  - DOMAIN-SUFFIX,epicgames.helpshift.com
+
+  # CDN и загрузка контента
   - DOMAIN-SUFFIX,akamaized.net
+  - DOMAIN-SUFFIX,cloudfront.net
+  - DOMAIN-SUFFIX,fastly.net
+  - DOMAIN-SUFFIX,download.epicgames.com
+  - DOMAIN-SUFFIX,cdn1.unrealengine.com
+  - DOMAIN-SUFFIX,cdn2.unrealengine.com
+  - DOMAIN-SUFFIX,static-assets-prod.epicgames.com
+  - DOMAIN-SUFFIX,static-assets-prod.unrealengine.com
